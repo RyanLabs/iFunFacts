@@ -9,6 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var funFactLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,7 +23,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showFunFact() {
-        println("You pressed me!")
+        funFactLabel.text = "Another interesting fact!"
     }
 
 }
