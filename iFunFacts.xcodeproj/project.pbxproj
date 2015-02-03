@@ -13,6 +13,7 @@
 		3B5EF0361A80919300BFB3D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5EF0351A80919300BFB3D3 /* Images.xcassets */; };
 		3B5EF0391A80919300BFB3D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B5EF0371A80919300BFB3D3 /* LaunchScreen.xib */; };
 		3B5EF0451A80919300BFB3D3 /* iFunFactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EF0441A80919300BFB3D3 /* iFunFactsTests.swift */; };
+		3BFE27EF1A809EF000842895 /* FactBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFE27EE1A809EF000842895 /* FactBook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,8 @@
 		3B5EF03E1A80919300BFB3D3 /* iFunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5EF0431A80919300BFB3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B5EF0441A80919300BFB3D3 /* iFunFactsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFunFactsTests.swift; sourceTree = "<group>"; };
+		3BFE27EE1A809EF000842895 /* FactBook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactBook.swift; sourceTree = "<group>"; };
+		3BFE27F01A80A3F900842895 /* Scratchpad.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Scratchpad.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				3B5EF02B1A80919300BFB3D3 /* iFunFacts */,
+				3BFE27F11A80A40400842895 /* Playground */,
 				3B5EF0411A80919300BFB3D3 /* iFunFactsTests */,
 				3B5EF02A1A80919300BFB3D3 /* Products */,
 			);
@@ -78,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				3B5EF02E1A80919300BFB3D3 /* AppDelegate.swift */,
+				3BFE27EE1A809EF000842895 /* FactBook.swift */,
 				3B5EF0301A80919300BFB3D3 /* ViewController.swift */,
 				3B5EF0321A80919300BFB3D3 /* Main.storyboard */,
 				3B5EF0351A80919300BFB3D3 /* Images.xcassets */,
@@ -110,6 +115,14 @@
 				3B5EF0431A80919300BFB3D3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BFE27F11A80A40400842895 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				3BFE27F01A80A3F900842895 /* Scratchpad.playground */,
+			);
+			name = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFE27EF1A809EF000842895 /* FactBook.swift in Sources */,
 				3B5EF0311A80919300BFB3D3 /* ViewController.swift in Sources */,
 				3B5EF02F1A80919300BFB3D3 /* AppDelegate.swift in Sources */,
 			);
@@ -405,6 +419,7 @@
 				3B5EF04A1A80919300BFB3D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B5EF04B1A80919300BFB3D3 /* Build configuration list for PBXNativeTarget "iFunFactsTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +428,7 @@
 				3B5EF04D1A80919300BFB3D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
