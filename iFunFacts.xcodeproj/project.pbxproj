@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B28BA941A81E5B10057369C /* ColourWheel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B28BA931A81E5B10057369C /* ColourWheel.swift */; };
 		3B5EF02F1A80919300BFB3D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EF02E1A80919300BFB3D3 /* AppDelegate.swift */; };
 		3B5EF0311A80919300BFB3D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B5EF0301A80919300BFB3D3 /* ViewController.swift */; };
 		3B5EF0341A80919300BFB3D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5EF0321A80919300BFB3D3 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B28BA931A81E5B10057369C /* ColourWheel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColourWheel.swift; sourceTree = "<group>"; };
 		3B5EF0291A80919300BFB3D3 /* iFunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B5EF02D1A80919300BFB3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B5EF02E1A80919300BFB3D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 				3B5EF0351A80919300BFB3D3 /* Images.xcassets */,
 				3B5EF0371A80919300BFB3D3 /* LaunchScreen.xib */,
 				3B5EF02C1A80919300BFB3D3 /* Supporting Files */,
+				3B28BA931A81E5B10057369C /* ColourWheel.swift */,
 			);
 			path = iFunFacts;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BFE27EF1A809EF000842895 /* FactBook.swift in Sources */,
+				3B28BA941A81E5B10057369C /* ColourWheel.swift in Sources */,
 				3B5EF0311A80919300BFB3D3 /* ViewController.swift in Sources */,
 				3B5EF02F1A80919300BFB3D3 /* AppDelegate.swift in Sources */,
 			);
